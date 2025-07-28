@@ -1,0 +1,29 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sample?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    database: mysql
+
+jwt:
+  secret: fbhnjgrdekkkkkkkkkkkkkkkkkkkkkggggiougtdrfjhhhhhhhhhhhhhhhhhhhhhhhhhhrtg
+  expiration: 3600000
+
+# custom oauth values
+oauth2:
+  url:
+    base:
+    path:
+      signup:
+      auth:
+
+
