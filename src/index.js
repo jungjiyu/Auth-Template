@@ -1,4 +1,3 @@
-// index.jsx 또는 main.jsx
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
