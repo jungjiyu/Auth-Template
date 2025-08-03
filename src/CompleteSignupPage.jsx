@@ -43,7 +43,7 @@ const CompleteSignupPage = () => {
 
       alert('♻️ Access → Refresh 교체 요청 중...');
       const res = await axios.post(
-      'http://localhost:8080/api/auth/issue',
+      'http://localhost:8080/api/auth/oauth-login',
       {},
       {
         headers: {
